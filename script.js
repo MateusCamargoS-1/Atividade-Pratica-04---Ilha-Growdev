@@ -18,7 +18,7 @@
 // GC$ 5,00 -> 0
 // GC$ 1,00 -> 2
 
-let valorDesejado = 7;
+let valorDesejado = parseFloat(prompt('Insira um valor a ser retirado: '));
 let nota = 50;
 
 while(valorDesejado > 0) {
